@@ -1,21 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
-   <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-   <div class="section_top">
-      <div class="section_container">
-         <img src="Star 1.svg" alt="Star">
-         <nav></nav>
-
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ink House</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+  <header class="header">
+      <div class="container">
+        <div class="header__logo">
+          <img src="./icons/logo.svg" alt="stars" />
+          <p>Ink. House</p>
+        </div>
+        <nav class="header__nav">
+          <ul>
+            <li><a href="">Репродукции</a></li>
+            <li><a href="">Новинки</a></li>
+            <li><a href="">О нас</a></li>
+            <li>
+              <a href="">
+                <img src="./icons/busket.svg" alt="busket" />
+              </a>
+            </li>
+          </ul>
+        </nav>
       </div>
-
-   </div>
-   
-</body>
+  </header>
+  <section class="hero">
+      <div class="container">
+        <div class="hero_img">
+          <img src="./img/bird.png" alt="bird" />
+        </div>
+        <div class="hero_text">
+          <h1>Реплики картин от <span>Ink. House</span></h1>
+          <p>
+            Высокое качество отрисовки на плотной бумаге или льняном холсте.
+            Редкие произведения, доступные цены.
+          </p>
+          <a class="btn" href="#">Продукция</a>
+        </div>
+      </div>
+  </section>
+  <section class="reproduction">
+      <div class="container">
+        <h2 class="title">Репродукции</h2>
+        <div class="reproduction__filter">
+          <button class="filter filter_active">Франция</button>
+          <button class="filter">Германия</button>
+          <button class="filter">Англия</button>
+        </div>
+      </div>
+  </section>
+  <section class="picture">
+      <div class="container">
+        <div class="cards">
+          <div class="card">
+            <div class="card__img">
+                <img src="./img/01.jpg" alt="Охота Амура">
+            </div>
+            <div class="card__text">
+                <p class="card__autor">Марсель Руссо</p>
+                <p class="card__title">Охота Амура</p>
+                <p class="card__material">Холст, масло (50х80)</p>
+                <p class="card__price">14 500 руб</p>
+                <a class="btn" href="#">В корзину</a>
+            </div>
+          </div>
+          <div class="card">  
+            <div class="card__img">
+            <img src="./img/02.jpg" alt="Дама с собачкой">
+            </div>
+            <div class="card__text">
+                <p class="card__autor">Анри Селин</p>
+                <p class="card__title">Дама с собачкой</p>
+                <p class="card__material">Акрил, бумага (50х80) </p>
+                <p class="card__price">16 500 руб</p>
+                <a class="btn" href="#">В корзину</a>
+            </div>
+          </div> 
+          <div class="card">  
+            <div class="card__img">
+            <img src="./img/03.jpg" alt="Процедура">
+            </div>
+            <div class="card__text">
+                <p class="card__autor">Франсуа Дюпон</p>
+                <p class="card__title">Процедура</p>
+                <p class="card__material">Цветная литография (40х60)</p>
+                <p class="card__price">20 000 руб</p>
+                <a class="btn" href="#">В корзину</a>
+            </div>
+          </div>
+          <div class="card"> 
+            <div class="card__img">
+            <img src="./img/04.jpg" alt="Роза">
+            </div>
+            <div class="card__text">
+                <p class="card__autor">Луи Детуш</p>
+                <p class="card__title">Роза</p>
+                <p class="card__material">Бумага, акрил (50х80)</p>
+                <p class="card__price">12 000 руб</p>
+                <a class="btn" href="#">В корзину</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__img">
+            <img src="./img/05.jpg" alt="Птичья трапеза">
+            </div>
+            <div class="card__text">
+                <p class="card__autor">Франсуа Дюпон</p>
+                <p class="card__title">Птичья трапеза</p>
+                <p class="card__material">Цветная литография (40х60)</p>
+                <p class="card__price">22 500 руб</p>
+                <a class="btn" href="#">В корзину</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__img">
+            <img src="./img/06.jpg" alt="Пейзаж с рыбой">
+            </div>
+            <div class="card__text">
+                <p class="card__autor">Пьер Моранж</p>
+                <p class="card__title">Пейзаж с рыбой</p>
+                <p class="card__material">Цветная литография (40х60) </p>
+                <p class="card__price">20 000 руб</p>
+                <a class="btn" href="#">В корзину</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section class="new__collection">
+    <div class="collection__text">
+      <div class="logo__y">
+      <img src="./icons/logo_y.svg" alt="star">
+      <h2>Новая коллекция французских авторов</h2>
+    </div>  
+      <p>Сложно сказать, почему акционеры крупнейших компаний призывают нас к новым свершениям, которые, в свою очередь, должны быть заблокированы в рамках своих собственных рациональных ограничений.</p>
+      <p>Принимая во внимание показатели успешности, граница обучения кадров предопределяет высокую востребованность направлений прогрессивного развития.</p>
+      <a class="btn" href="#">Ознакомиться</a>
+    </div>
+  </section>
+  <section class="team">
+    <img src="./img/hand.png" alt="hand">
+    <div class="team__text">
+      <h2>Наша команда</h2>
+      <p>Значимость этих проблем настолько очевидна, что базовый вектор развития позволяет оценить значение экспериментов, поражающих по своей масштабности и грандиозности. Мы вынуждены отталкиваться от того, что консультация с широким активом.</p>
+    </div>
+    <div class="team__jpg">
+      <img src="./img/people1.jpg" alt="people1">
+      <img src="./img/people2.jpg" alt="people2">
+      <img src="./img/people3.jpg" alt="people3">
+    </div>
+  </section>
+  </body>
 </html>
